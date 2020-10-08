@@ -1,1 +1,2 @@
-# EngineAssignments
+# 游戏引擎原理与实践作业
+Assignment2 第二次作业 3C框架：一个通过WASD和鼠标控制移动和视角的闯关小游戏
