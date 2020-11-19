@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3352264824373824534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2724242043070486188}
+  - component: {fileID: 1324524625604483337}
+  - component: {fileID: 3856593560345865667}
+  - component: {fileID: 2469321462452558206}
+  - component: {fileID: 2469321462452558207}
+  - component: {fileID: 2469321462452558201}
+  m_Layer: 0
+  m_Name: Teapot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2724242043070486188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3352264824373824534}
+  m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0602984, y: -0.76, z: 2.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1324524625604483337
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3352264824373824534}
+  m_Mesh: {fileID: 3549716552292055592, guid: 68ba27c81ff1811459414ba57b6175b9, type: 3}
+--- !u!23 &3856593560345865667
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3352264824373824534}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 670224309865224971, guid: 68ba27c81ff1811459414ba57b6175b9, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!54 &2469321462452558206
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3352264824373824534}
+  serializedVersion: 2
+  m_Mass: 10
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &2469321462452558207
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3352264824373824534}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.51
+  m_Height: 1.01
+  m_Direction: 1
+  m_Center: {x: -0.047721237, y: 0.34704, z: -0.5392634}
+--- !u!114 &2469321462452558201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3352264824373824534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1944b56cb0da41842b88861f0e4006b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breakingForce:
+    power: 3
+    radius: 1
+    upForce: 0.1
+  brokenPieces:
+  - {fileID: 1027352226261955352, guid: 3621c57d290083145addbb4ad95b2529, type: 3}
+  - {fileID: 1702649281584598841, guid: 68870ba402d532440b4fbd4c0e12d63c, type: 3}
+  - {fileID: 1782832885771709574, guid: 1b5e371ec9f7644448a2406eac881172, type: 3}
+  - {fileID: 3439958879187562384, guid: 00ce1ac02c814df468cca576f09e75b0, type: 3}
+  - {fileID: 5687235065281898197, guid: 2621c91ddf207d04c85ba788609ae4e4, type: 3}
+  - {fileID: 7001014171288435198, guid: 6e8dbf562980f7742b6e382e0fd3c0cf, type: 3}
+  - {fileID: 825193934667841728, guid: 018c1ea5c47b3e24e9efd284b4dafbd5, type: 3}
+  - {fileID: 5477239067845732628, guid: 2b6f7e2b7a302174b8c9c7fc1e073ee5, type: 3}
+  - {fileID: 1577627776792121340, guid: 7d3623d3b78c3cc41a11c69b9f9bf638, type: 3}
+  - {fileID: 3547500060578105409, guid: acd25d2d491fd624598e443b7ec8276b, type: 3}
+  - {fileID: 757603039600224378, guid: 0df5dbb4e5d480b47bb502b39d823906, type: 3}
+  - {fileID: 4986097395176399489, guid: 0e8e3d9d0db047141827ec7011783752, type: 3}
+  - {fileID: 7496161606574386631, guid: 1b52e76617871a7459ca16ddf0afdcf3, type: 3}
+  - {fileID: 6940767386882183732, guid: 5229f3b57c8d5e649967db64a1b322fe, type: 3}
+  - {fileID: 6004749149193700943, guid: b8c74358611b6aa42a35ff2997af757b, type: 3}
+  - {fileID: 7858759417643963827, guid: 34d2fabd92499bd409ba2beda1b5e815, type: 3}
+  - {fileID: 7551989136918955994, guid: 93a4531d53cc3f547b178a0596cce5fc, type: 3}
+  - {fileID: 2707787465203037131, guid: 487c77511010c8a40834f019597a1b59, type: 3}
+  - {fileID: 3689763411908450608, guid: 373190582259aff439e548aabc2178af, type: 3}
+  - {fileID: 99973469863161717, guid: 17206caa5b659ed49972b869651b94ce, type: 3}
+  - {fileID: 5324368706631744858, guid: 59679d8c792233840b028095aaad5c22, type: 3}
+  - {fileID: 6040758867234845662, guid: 6fc0cb1ff445f2344a44ecbc34a86fea, type: 3}
+  - {fileID: 4525233569991575207, guid: 9438e4f24a3769843b6bc43b7effee39, type: 3}
+  - {fileID: 6464373938258771637, guid: 483072336901d744dbc742294d0a92d6, type: 3}
+  - {fileID: 3303673486477157800, guid: 972d32794a9cd3040a93f5b66571d2f2, type: 3}
+  breakOnCollision: 1
+  collisionSettings:
+    collisionMode: 3
+    allowedTags:
+    - Player
+    ignoredTags:
+    - Untagged
+  RemoveBrokenPiecesFromScene: 1
+  removeSettings:
+    timeInSeconds: 2
+    removeMode: 2
+    OnRemove:
+      m_PersistentCalls:
+        m_Calls: []
+  OnBreak:
+    m_PersistentCalls:
+      m_Calls: []
