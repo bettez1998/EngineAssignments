@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/IMDT/BASE_5/Scenes/Main.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
