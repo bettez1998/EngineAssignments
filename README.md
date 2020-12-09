@@ -1,4 +1,6 @@
 # 第八周作业
+场景位置：Assets/Karting/Scenes/MainScene
+
 在Karting DEMO中利用工程资源增加特效，包括4个：
 
 1.车轮与地面摩擦火星特效（自己制作）
